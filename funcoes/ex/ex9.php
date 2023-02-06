@@ -14,7 +14,7 @@ $arr = [
 function itens($arr){
     $str = '    você levou os itens : ';
     for($i = 0; $i < count($arr); $i++){
-        $str.= $arr[$i].',';
+        $str.= $arr[$i].', ';
     };
     return $str;
 };
