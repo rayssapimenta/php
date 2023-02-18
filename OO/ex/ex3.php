@@ -5,7 +5,7 @@
 //e tb o getVelocidadeMaxima onde é possivel imprimir a velocidade
 class Carro{
     public $velocidade_maxima;
-    
+    public $modelo;
 
     function setVelocidadeMaxima($velocidade){
         $this -> velocidade_maxima = $velocidade;
